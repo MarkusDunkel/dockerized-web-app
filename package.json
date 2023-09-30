@@ -1,0 +1,25 @@
+{
+  "name": "dockerized-web-app",
+  "version": "1.0.0",
+  "description": "Tutorial with source: https://medium.com/@antonio.maccarini/dockerize-a-react-application-with-node-js-postgres-and-nginx-124c204029d4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkusDunkel/dockerized-web-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkusDunkel/dockerized-web-app/issues"
+  },
+  "homepage": "https://github.com/MarkusDunkel/dockerized-web-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3"
+  }
+}
