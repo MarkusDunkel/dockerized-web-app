@@ -29,6 +29,8 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/api', (req, res) => res.send('Hello World!'));
 
 app.get('/api/all', async (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  
   try {
     const response = await client.query(`SELECT * FROM users`);
     
